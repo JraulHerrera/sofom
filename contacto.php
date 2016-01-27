@@ -6,19 +6,23 @@
 	<meta  name = "viewport"  content = "width = dispositivo de ancho, escala inicial = 1, de máxima escala = 1, el usuario escalable = no">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/contacto.css">
 </head>
 <body>
 
-   <div  class = "container colorFondo " >
- 
+   <div  class = "container colorFondo" >
+  <!--  cabecera inicio   -->
        <div class= "row colorHeader" >
        			
        			<div class= "col-md-2 " ><img src="imagenes/logo.png" width="120" height="120" class="img-rounded"></div>
-       			<div class= "col-md-4">Soluciones y Oportunidades</div>
-       			<div class= "col-md-4">Soluciones y Oportinudades SA de CV SOFOM ENR</div>
+       			<div class= "col-md-3 titulo" >Soluciones y &nbsp;<span class="TituloSpam">Oportunidades</span> </div>
+       			<div class= "col-md-5 titulo2">Soluciones y Oportinudades SA de CV SOFOM ENR</div>
  	   </div>
+<!--  Cabecera fin    -->
+
     <div class="separador"></div>
-    <!--####### Menu ##### -->
+    
+   <!--####### Menu ##### -->
     <div class= "row colormenu"  >
         
         <div class="col-md-8 colormenu">
@@ -37,47 +41,144 @@
         </div>
     </div>
 
-	<div class="container">
-	<form class="" action="" methos="POST">
-	<div class="form-group">
-	<div class="col-xs-4 well">
-			<input type="text" class="form-control separacion" id="nombre" name="txtNombre" placeholder="Nombre" required autofocus>		
-			<input type="text" class="form-control separacion" id="telefono" placeholder="Telefono" name="txtTelefono" >
-			<input type="email" class="form-control separacion" id="email" placeholder="E-mail" name="txtEmail" >
-			<textarea class="form-control hresize separacion" id="informacion" name="txtInformacion"></textarea>
-			<div class="col-xs-12">
-			<buttom class="btn btn-lg btn-primary btn-block btnSolicitar separacion" type="submit">Enviar</buttom>
-			</div>
-			</div>
+<!--  Fin menu   -->
+
+    <div class="row">
+    	<div class="col-xs-4"> 
+ 		</div>
+ 		
+ 		<div class="col-xs-4 contactanos"> 
+ 			CONTACTANOS
+ 		</div>
+		
+		<div class="col-xs-4"> 
+ 		</div>
 	</div>
+
+	<div class="">
+	<div class="row fondoContenido">
+	   <form class="frmContacto" action="" methos="POST">
+		<div class="form-group">
+		
+		<div class="col-xs-5">
+			<input type="text" class="form-control separacion colorCajaTexto tamano" id="nombre" name="txtNombre" required autofocus>		
+			<input type="text" class="form-control separacion colorCajaTexto tamano" id="telefono" name="txtTelefono" >
+			<input type="email" class="form-control separacion colorCajaTexto tamano" id="email" name="txtEmail" >
+			<textarea class="form-control  separacion colorCajaTexto"rows="5" id="informacion" name="txtInformacion"></textarea>
+		
+			<div class="col-xs-12">
+				<div class="col-xs-1">
+					<buttom class="btn btn-lg btn-primary btn-block btnSolicitar separacion" type="submit">ENVIAR</buttom>	
+				</div>
+			</div>
+		</div>
+		
+		</form>
+
+		<div class="col-xs-5 mapa">
+			<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src="https://www.google.com/maps/
+			embed?pb=!1m18!1m12!1m3!1d3820.608669705969!2d-93.12898944621953!3d16.746
+			36652695039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+			%3A0xaa644f1b9f519463!2sCalle+Doceava+Pte.+Sur%2C+Tuxtla+Guti%C3%A9rrez%2C+
+			Chis.!5e0!3m2!1ses-419!2smx!4v1453917852602"></iframe>
+			</div>
+		</div>
+		</div>
+		</div>
+	</div>
+
 <div class="col-md-8">
       
 
        </div>
 
        </div> 
-       <div class="separadorFooter"></div>
-
        <!--#### pie de pagina ####--> 
-       <div class= "row footer" >
-       <div class="col-md-4">
-        <div class="Datos">
-         <div > Tel:(961) 618-1553 / (961) 618-1554 </div>
-         <div>Calle 12 Poniente Norte 931-C</div>
-         <div>Barrio Juy Juy</div>
-         <div>CP. 29038</div>
-         <div>Tuxtla Gutierrez, Chiapas, México.</div>
-        </div></div>
-        <div class="col-md-1">  </div>
-          <div class="col-md-7 Datos"> Siguenos:</div>
-          <div class="col-md-1"><img src="imagenes/GooglePlus.png" class="img-responsive"></div>
-          <div class="col-md-1"><img src="imagenes/facebooklogo.png" class="img-responsive"></div>
-          <div class="col-md-1"><img src="imagenes/twitter.jpg" class="img-responsive" ></div>
-         </div>
-          
+       
+        <footer class="container piePagina">
+        	<div id="sucursales">
+        	<p id="lblSucursal">SUCURSALES</p>
+        	</div>
+
+        	<div class="row informacionContactos">
+ 				<div class="col-md-4">
+ 					Tel:(961) 618-15-53/(961)618-1554<br>
+					Calle 12 Poniente Norte 931-C<br>
+					Bario Juy Juy<br>
+					C.P.29038<br>
+					Tuxtla Gutierrez, Chiapas, México
+ 				</div>
+  				<div class="col-md-4">
+  					Tel:(961) 618-15-53/(961)618-1554<br>
+					Calle 12 Poniente Norte 931-C<br>
+					Bario Juy Juy<br>
+					C.P.29038<br>
+					Tuxtla Gutierrez, Chiapas, México<br>
+  				</div>
+  				<div class="col-md-4">
+  					Tel:(961) 618-15-53/(961)618-1554<br>
+					Calle 12 Poniente Norte 931-C<br>
+					Bario Juy Juy<br>
+					C.P.29038<br>
+					Tuxtla Gutierrez, Chiapas, México
+  				</div>
+			</div>
+
+
+			<div class="row-fluid">
+   				<div class="span12"></div>
+   				<div class="span12"></div>
+   				<div class="span12"></div>
+			</div>
+
+			<div class="row contactoSiguenos">
+ 				<div class="col-md-4">
+  					Tel:(961) 618-15-53/(961)618-1554<br>
+					Calle 12 Poniente Norte 931-C<br>
+					Bario Juy Juy<br>
+					C.P.29038<br>
+					Tuxtla Gutierrez, Chiapas, México
+  				</div>
+  				
+  			<div class="col-md-5">
+  				
+  					<div class="col-md-6"></div>
+  					<div class="col-md-2 lblSiguenos">Siguenos:</div>
+  					
+  				
+
+  				<div class="row contactoSiguenos">
+  						<div class="col-md-2">
+ 					</div>		
+					<div class="col-md-2">
+ 					</div>
+
+  					<div class="col-md-2">
+ 						<img src="imagenes/googleMas.png" class="img-responsive img-rounded" alt="">
+ 					</div>
+ 				
+ 					<div class="col-md-2">
+ 						<img src="imagenes/iconoFacebook.png" class="img-responsive img-rounded" alt="">
+ 					</div>
+ 				
+ 					<div class="col-md-2">
+ 						<img src="imagenes/iconoTwitter.png" class="img-responsive img-rounded" alt="">
+ 					</div>
+  				</div>
+
+			</div>
+
+			<br>
+			<br>
+
+		</footer>
         	
-</div>
+
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
+
+
+
 </html>

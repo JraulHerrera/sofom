@@ -1,6 +1,8 @@
 body
 {
-	background-color: gray;
+	background-color:rgb(8,51,143) ;
+	color: gray;
+		font-family: Segoe UI;
 }
 .colorFondo
 {
@@ -14,6 +16,24 @@ body
 	height:auto;
 
 }
+.titulo{
+	margin-top: 20px;
+	margin-left: 0px;
+	font-family: Segoe UI;
+	font-size: 30px;
+}
+.titulo2{
+	margin-top: 80px;
+	font-family: Segoe UI;
+	font-size: 20px;
+	margin-left: 150px;
+
+}
+.TituloSpam{
+ color: rgb(87,86,86);
+
+
+}
 .colormenu
 {
 background: rgb(229,229,229);
@@ -24,10 +44,17 @@ height: auto;
 
 .colorTexto{color: white;
 	margin-left: 15px;
+	font-family: Segoe UI;
+	font-size: 20px;
 }
 
 .separador{
 height: 5px;
+
+}
+.textProyectos{
+	color:white;
+	margin-top: 10px;
 
 }
 
@@ -43,8 +70,13 @@ background-color: rgb(229,229,229);
 color: blue;
 margin-left: 80px;
 }
+.siguenos{color:blue;
+font-size: 20px;
+font-style: bold;
+margin-left: 25px;}
+
 .separadorFooter{
-	height: 130px
+	height: 584px
 }
 .separadorHeder{
 	height: 100px
@@ -57,6 +89,10 @@ border-radius: 1em;
 
 
 }
+
+
+
+/*Formulario */
 .btnSolicitar
 {
 	margin-top:20px;
@@ -66,20 +102,48 @@ border-radius: 1em;
 	margin:0 auto;
 	margin-top:10px;
 }
+#informacion{
+	resize:none;}
 
 .separacion
 {
 	margin-bottom:4px;
 }
 
-
-.formSolicitud{
+.Formulario{
 	z-index: 100;
-	margin-left:45%;
-	top: 80%; 
+	margin-left: 10px;
+	margin-top: 10px;
+
+
+}
+.LabelForm{ 
+  
 	color:blue;
-	background-color: gray;
+	font-family: Segoe UI;
+
 }
 
-.form-group
-{background-color: gray;}
+.textSpam{
+
+	color:blue;
+	font-family: Segoe UI;
+	font-size: 15px;
+	font-style: bold;
+	margin-bottom: inherit;
+
+}
+.positionForm{
+	margin-left: 200px;
+	margin-top: -100px;
+}
+
+
+
+
+/*slider*/
+.adaptar
+{
+    width: 100%;
+}
+.sliderTam{}
