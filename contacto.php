@@ -61,10 +61,10 @@
 		<div class="form-group">
 		
 		<div class="col-xs-5">
-			<input type="text" class="form-control separacion colorCajaTexto tamano" id="nombre" name="txtNombre" required autofocus>		
-			<input type="text" class="form-control separacion colorCajaTexto tamano" id="telefono" name="txtTelefono" >
-			<input type="email" class="form-control separacion colorCajaTexto tamano" id="email" name="txtEmail" >
-			<textarea class="form-control  separacion colorCajaTexto"rows="5" id="informacion" name="txtInformacion"></textarea>
+			<input type="text" class="form-control separacion colorCajaTexto tamano" id="nombre" name="txtNombre" placeholder="Nombre" required autofocus>		
+			<input type="text" class="form-control separacion colorCajaTexto tamano" id="telefono" name="txtTelefono" placeholder="Telefono">
+			<input type="email" class="form-control separacion colorCajaTexto tamano" id="email" name="txtEmail" placeholder="E-mail">
+			<textarea class="form-control  separacion colorCajaTexto"rows="5" id="informacion" name="txtInformacion" placeholder="Mensaje"></textarea>
 		
 			<div class="col-xs-12">
 				<div class="col-xs-1">
@@ -155,15 +155,15 @@
  					</div>
 
   					<div class="col-md-2">
- 						<img src="imagenes/googleMas.png" class="img-responsive img-rounded" alt="">
+ 						<img src="imagenes/iconoGoogleMasBlanco.png" class="img-responsive img-rounded" alt="">
  					</div>
  				
  					<div class="col-md-2">
- 						<img src="imagenes/iconoFacebook.png" class="img-responsive img-rounded" alt="">
+ 						<img src="imagenes/iconoFacebookBlanco.png" class="img-responsive img-rounded" alt="">
  					</div>
  				
  					<div class="col-md-2">
- 						<img src="imagenes/iconoTwitter.png" class="img-responsive img-rounded" alt="">
+ 						<img src="imagenes/iconoTwitterBlanco.png" class="img-responsive img-rounded" alt="">
  					</div>
   				</div>
 

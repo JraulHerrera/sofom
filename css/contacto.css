@@ -51,7 +51,46 @@ body
 {
   background-color: rgb(8,51,143);
   border-radius:0.7em;
+  color:white;
 }
+
+input::-webkit-input-placeholder{
+  color: white !important;
+}
+
+input:-moz-placeholder {
+  color: white !important; 
+}
+input:-ms-input-placeholder { 
+  color: white !important; 
+}
+
+/*color placeholder textarea*/
+#txtInformacion::-webkit-input-placeholder,
+#informacion::-webkit-input-placeholder
+{
+  color: white;
+}
+
+#txtInformacion:-moz-placeholder,
+#informacion:-moz-placeholder 
+{
+  color: white;
+}
+
+#txtInformacion::-moz-placeholder,
+#informacion::-moz-placeholder 
+{
+  color: white;
+}
+
+#txtInformacion:-ms-input-placeholder,
+#informacion:-ms-input-placeholder 
+{
+  color: white;
+}
+
+
 
 .tamano
 {
