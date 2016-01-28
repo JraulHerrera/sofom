@@ -54,7 +54,7 @@
 		<div class="col-xs-4"> 
  		</div>
 	</div>
-
+<!-- formulari de contactos -->
 	<div class="">
 	<div class="row fondoContenido">
 	   <form class="frmContacto" action="" methos="POST">
